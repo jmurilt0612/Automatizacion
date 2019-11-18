@@ -1,0 +1,29 @@
+package tiposdedatos;
+
+public class OperadoresDeAsignacion2 {
+	
+	public static void main(String[] args) {
+		
+		int a, b=10, c=5;
+		a=b+c;
+		System.out.println("Value of 'a' after of the operation: "+ a);
+		a=b-c;
+		System.out.println("Value of 'a' after of the operation: "+ a);
+		a=b*c;
+		System.out.println("Value of 'a' after of the operation: "+ a);
+		a=b/c;
+		System.out.println("Value of 'a' after of the operation: "+ a);
+		a=b%c;
+		System.out.println("Value of 'a' after of the operation: "+ a);
+		b++;
+		System.out.println("Value of 'a' after of the operation: "+ a);
+		c--;
+		System.out.println("Value of 'a' after of the operation: "+ a);
+				
+		
+		
+	}
+	
+	
+
+}

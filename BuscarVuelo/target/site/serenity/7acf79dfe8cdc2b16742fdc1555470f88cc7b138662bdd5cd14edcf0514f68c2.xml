@@ -1,0 +1,28 @@
+<acceptance-test-run title="Ingreso de datos&#xd;&amp;#10;Give Que me encuentro en la pagina makemytrip" name="Ingreso de datos&#xd;&#xa;Give Que me encuentro en la pagina makemytrip" steps="2" successful="0" failures="0" errors="1" skipped="1" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="39762" timestamp="2019-11-13T15:55:43.764-05:00" session-id="1bb33e74a4717ee73abf11b014a0d6fb">
+  <user-story id="Seleccion" name="Seleccion" path="stories/Seleccion.story"/>
+  <tags>
+    <tag name="Seleccion" type="story"/>
+  </tags>
+  <test-group name="When Cuando agrego los datos de mi vuelo" result="ERROR">
+    <test-step result="ERROR" duration="39316">
+      <screenshots>
+        <screenshot image="b04fdf9baa184eaabfd1df612e7da537.png" source="pagesource2727928398936027694.html.txt"/>
+      </screenshots>
+      <description>Ingresar datos</description>
+      <error>org.openqa.selenium.NoSuchElementException: Timed out after 16 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;DESKTOP-G4645NL&apos;, ip: &apos;192.168.99.156&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_192&apos;
+Driver info: driver.version: unknown</error>
+      <exception>org.openqa.selenium.NoSuchElementException:Timed out after 16 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;DESKTOP-G4645NL&apos;, ip: &apos;192.168.99.156&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_192&apos;
+Driver info: driver.version: unknown&#xd;
+[com.buscarvuelo.pages.SeleccionPages.ingresarDatos(SeleccionPages.java:37), com.buscarvuelo.steps.SeleccionSteps.ingresarDatos(SeleccionSteps.java:22), com.buscarvuelo.definitions.SeleccionDefinitions.ingresarDatos(SeleccionDefinitions.java:22)]</exception>
+    </test-step>
+  </test-group>
+  <test-step result="SKIPPED" duration="1">
+    <description>Then puedo visualizar todos los disponibles</description>
+  </test-step>
+</acceptance-test-run>

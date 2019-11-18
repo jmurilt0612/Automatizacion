@@ -1,0 +1,14 @@
+package Q_Vision.Esperas;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class Esperas {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

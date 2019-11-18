@@ -1,0 +1,42 @@
+<acceptance-test-run title="Ingreso de datos" name="Ingreso de datos" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="22202" timestamp="2019-11-13T16:47:19.201-05:00" session-id="a53725f0a1348962d09d2ff97c7c2fca">
+  <user-story id="Seleccion" name="Seleccion" path="stories/Seleccion.story"/>
+  <tags>
+    <tag name="Seleccion" type="story"/>
+  </tags>
+  <test-group name="Given Que me encuentro en la pagina makemytrip" result="SUCCESS">
+    <screenshots>
+      <screenshot image="3715e832f9776285caf611763dd47091.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="9361">
+      <screenshots>
+        <screenshot image="553cf26fcc060656eec85f9ff93a9edc.png"/>
+      </screenshots>
+      <description>Abrir app</description>
+    </test-step>
+  </test-group>
+  <test-group name="When Cuando agrego los datos de mi vuelo" result="SUCCESS">
+    <screenshots>
+      <screenshot image="859ef72417104385e8de9fba9d7ee4dc.png"/>
+      <screenshot image="9d662020ae56797735df4a0435b3114f.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="8898">
+      <screenshots>
+        <screenshot image="aacaceda27f8559685d30d453e7c7b40.png"/>
+        <screenshot image="1c6b22a247c8ff4d07f4425ea27e57cd.png"/>
+      </screenshots>
+      <description>Ingresar datos</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then puedo visualizar todos los disponibles" result="SUCCESS">
+    <screenshots>
+      <screenshot image="56ca66badeca243711c7c335bf11d737.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="744">
+      <screenshots>
+        <screenshot image="c0e8587c04da978d84331a3cd9dc66f8.png"/>
+        <screenshot image="71b3d7b0d016768fbfa8b83cd4bd449c.png"/>
+      </screenshots>
+      <description>Validar inicio</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

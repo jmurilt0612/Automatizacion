@@ -1,0 +1,14 @@
+package co.com.google.translate.steps;
+
+import net.thucydides.core.annotations.Step;
+
+public class GoogleHomePage {
+	
+	HomePage homePage;
+	
+	@Step
+	public void openGoogleTranslatePage() {
+		homePage.open();
+	}
+
+}

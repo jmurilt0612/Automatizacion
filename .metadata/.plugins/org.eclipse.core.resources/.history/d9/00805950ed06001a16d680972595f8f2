@@ -1,0 +1,28 @@
+package tiposdedatos;
+
+import java.awt.CardLayout;
+
+public class BooleanTest {
+	
+	public static void main(String[] args) {
+		
+		boolean result;
+		int carSpeed;
+		
+		carSpeed =20;
+		System.out.println("The Speed of Car is: " + carSpeed);
+		
+		carSpeed = carSpeed +20;
+		
+		System.out.println("\nThe Speed of Car is: " + carSpeed);
+		
+		result=true;
+		System.out.println("The test is: "+ result);
+		
+		result=false;
+		System.out.println("The test is: "+ result);
+		
+		
+	}
+
+}

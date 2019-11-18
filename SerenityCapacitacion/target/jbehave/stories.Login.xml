@@ -1,0 +1,7 @@
+<story path="stories/Login.story" title="">
+<scenario keyword="Scenario:" title="Login">
+<step outcome="successful">Given That I am on Training Site WEB</step>
+<step outcome="successful">When I start session</step>
+<step outcome="successful">Then I have access to the buy of books</step>
+</scenario>
+</story>

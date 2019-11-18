@@ -1,0 +1,7 @@
+<story path="stories/Seleccion.story" title="">
+<scenario keyword="Scenario:" title="Ingreso de datos">
+<step outcome="successful">Given Que me encuentro en la pagina makemytrip</step>
+<step outcome="successful">When Cuando agrego los datos de mi vuelo</step>
+<step outcome="successful">Then puedo visualizar todos los disponibles</step>
+</scenario>
+</story>

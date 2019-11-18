@@ -1,0 +1,30 @@
+package stepsdefinitions;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+import net.thucydides.core.annotations.Steps;
+import steps.GoogleHomePage;
+
+public class GoogleTranslateStepDefinitions {
+	
+	@Steps
+	GoogleHomePage traductor;
+	
+	@Given("that Susan wants to translate a word$")
+	public void thatSusanWantsToTranslateWord() throws Exception{
+		
+	}
+	
+	@When("she translates the word cheese from English to Spanish")
+	public void sheTranslatesTheWordCheeseFromEnglishToSpanish() throws Exception{
+	
+	}
+	@Then("she should see the word queso in the screen")
+	public void shwShouldSeeTheWordQuesoInTheScreen() throws Exception{
+	
+	}
+	
+	
+	}
+

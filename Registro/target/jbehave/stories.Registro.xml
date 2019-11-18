@@ -1,0 +1,7 @@
+<story path="stories/Registro.story" title="">
+<scenario keyword="Scenario:" title="Login">
+<step outcome="successful">Given Que estoy en la pagina de registro</step>
+<step outcome="successful">When ingrese mis datos personales</step>
+<step outcome="successful">Then este inscrito satisfactoriamente</step>
+</scenario>
+</story>

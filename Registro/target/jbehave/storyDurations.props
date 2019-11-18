@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Fri Nov 15 12:09:53 COT 2019
+stories/Registro.story=13000
+threads=1
+total=13000
+threadAverage=13000

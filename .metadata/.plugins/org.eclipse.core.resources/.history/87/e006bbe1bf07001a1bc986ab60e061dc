@@ -1,0 +1,7 @@
+package stepsdefinitions;
+
+public class GoogleTranslateStepDefinitions {
+	
+	@Given("")
+
+}

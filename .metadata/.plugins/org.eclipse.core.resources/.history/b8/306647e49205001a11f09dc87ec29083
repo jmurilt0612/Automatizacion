@@ -1,0 +1,46 @@
+package Q_Vision.Esperas;
+
+import static org.junit.Assert.*;
+
+import java.util.concurrent.TimeUnit;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Esperas {
+	
+	WebDriver driver = null;
+	
+	@Before
+	public void abrirUrl() {
+		System.setProperty("webdriver.chrome.driver", "C:/Users/QV-3578/eclipse-workspace/SeleniumCapacitacion/src/test/java/driver/chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get("https://www.google.com/?gws_rd=ssl");
+	}
+
+	@Test
+	public void test() {
+		
+		WebElement searchBox = driver.findElement(By.xpath("//*[@id=\"tsf\"]/div[2]/div[1]/div[1]/div/div[2]/input"));
+		searchBox.sendKeys("Automatizacion");
+		
+		
+		
+		searchBox.submit();
+		
+		driver.manage().timeouts().implicitlyWait(60000, TimeUnit.SECONDS);
+		
+		assertEquals("quality-stream Introducción a la Automatización de Pruebas de Software - Google Search", driver.getTitle());
+	}
+
+	@After
+	public void cerrarUrl() {
+//		driver.close();
+	}
+	
+}

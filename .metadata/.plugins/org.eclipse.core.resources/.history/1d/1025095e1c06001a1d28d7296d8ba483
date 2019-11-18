@@ -1,0 +1,5 @@
+package com.capacitaciones.serenity.steps;
+
+public class RegisterSteps {
+
+}

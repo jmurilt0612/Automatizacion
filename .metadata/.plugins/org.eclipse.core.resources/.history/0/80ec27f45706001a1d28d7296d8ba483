@@ -1,0 +1,23 @@
+package com.buscarvuelo.definitions;
+
+import org.jbehave.core.annotations.Given;
+import org.jbehave.core.annotations.Then;
+import org.jbehave.core.annotations.When;
+
+public class SeleccionDefinitions {
+	
+	@Given("Que me encuentro en la pagina makemytrip")
+	public void abrirUrl() {
+		
+	}
+	@When("Cuando agrego los datos de mi vuelo")
+	public void ingresarDatos() {
+		
+	}
+	@Then("puedo visualizar todos los disponibles")
+	public void validarAcceso() {
+		
+	}
+	
+	
+}

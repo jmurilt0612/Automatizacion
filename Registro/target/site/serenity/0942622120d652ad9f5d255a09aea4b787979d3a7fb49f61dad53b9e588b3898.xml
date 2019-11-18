@@ -1,0 +1,33 @@
+<acceptance-test-run title="Login" name="Login" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="12114" timestamp="2019-11-15T12:09:40.043-05:00" session-id="68a3afc20e1697720de890f0201bde73">
+  <user-story id="Registro" name="Registro" path="stories/Registro.story"/>
+  <tags>
+    <tag name="Registro" type="story"/>
+  </tags>
+  <test-group name="Given Que estoy en la pagina de registro" result="SUCCESS">
+    <screenshots>
+      <screenshot image="019e920c8b0404ea7b4aa6bfdcb9d0e1.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="8767">
+      <screenshots>
+        <screenshot image="019e920c8b0404ea7b4aa6bfdcb9d0e1.png"/>
+      </screenshots>
+      <description>Abrir app</description>
+    </test-step>
+  </test-group>
+  <test-group name="When ingrese mis datos personales" result="SUCCESS">
+    <screenshots>
+      <screenshot image="019e920c8b0404ea7b4aa6bfdcb9d0e1.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="2355">
+      <screenshots>
+        <screenshot image="019e920c8b0404ea7b4aa6bfdcb9d0e1.png"/>
+      </screenshots>
+      <description>Registrar datos</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then este inscrito satisfactoriamente" result="SUCCESS">
+    <test-step result="SUCCESS" duration="25">
+      <description>Validar register</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

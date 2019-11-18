@@ -1,0 +1,39 @@
+package com.capacitaciones.serenity.steps;
+
+import org.fluentlenium.core.annotation.Page;
+
+import com.capacitacion.serenity.pages.RegisterPages;
+import org.openqa.selenium.support.ui.Select;
+import net.thucydides.core.annotations.Step;
+import net.thucydides.core.steps.ScenarioSteps;
+
+public class RegisterSteps extends ScenarioSteps {
+	
+	@Page
+	RegisterPages prueba;
+	
+	@Step
+	public void abrirApp() {
+	prueba.open();
+	prueba.Urlacceso();
+	
+	}
+	
+//	@Step
+//	public void abrirRegistro() {
+//		
+//	}
+	
+	@Step
+	public void registrarDatos() throws InterruptedException {
+	prueba.ingresarDatos();	
+	}
+	
+	@Step
+	public void validarRegister() {
+	prueba.validarAcceso();
+	}
+	
+	
+
+}

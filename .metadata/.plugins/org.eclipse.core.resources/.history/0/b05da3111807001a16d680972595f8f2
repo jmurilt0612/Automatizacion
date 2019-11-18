@@ -1,0 +1,23 @@
+package Prueba;
+
+public class PruebaLogica {
+	
+	public static int calcularDiagonales(int[][] matriz) {
+		return 0;
+		//La lógica a desarrollar va en este método
+		
+	}
+	
+	public static void main(String[] args) {
+
+		int absDifDiagonales = 0;
+		int[][] matriz = {{1,2,3},{4,5,6},{9,8,7}};
+		
+		absDifDiagonales = calcularDiagonales(matriz);
+		System.out.println(
+				"El valor absoluto de la diferencia de las diagonales es: " + absDifDiagonales
+				);
+		
+	}
+
+}

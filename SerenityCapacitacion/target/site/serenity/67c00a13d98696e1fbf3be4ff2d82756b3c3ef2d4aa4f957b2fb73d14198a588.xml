@@ -1,0 +1,39 @@
+<acceptance-test-run title="Login" name="Login" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="11551" timestamp="2019-11-12T14:44:13.935-05:00" session-id="cf8b846b92ab45b8cf59bc1b1efdefad">
+  <user-story id="Login" name="Login" path="stories/Login.story"/>
+  <tags>
+    <tag name="Login" type="story"/>
+  </tags>
+  <test-group name="Given That I am on Training Site WEB" result="SUCCESS">
+    <screenshots>
+      <screenshot image="9ce92c6839fef4628b49632dd6d0350e.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="7359">
+      <screenshots>
+        <screenshot image="9ce92c6839fef4628b49632dd6d0350e.png"/>
+      </screenshots>
+      <description>Abrir app</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I start session" result="SUCCESS">
+    <screenshots>
+      <screenshot image="f1d446fd35e64d017568b3dc83c89ed1.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1779">
+      <screenshots>
+        <screenshot image="f1d446fd35e64d017568b3dc83c89ed1.png"/>
+      </screenshots>
+      <description>Ingresar datos</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I have access to the buy of books" result="SUCCESS">
+    <screenshots>
+      <screenshot image="f1d446fd35e64d017568b3dc83c89ed1.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="611">
+      <screenshots>
+        <screenshot image="f1d446fd35e64d017568b3dc83c89ed1.png"/>
+      </screenshots>
+      <description>Validar inicio</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

@@ -1,0 +1,19 @@
+package com.buscarvuelo.pages;
+
+import org.openqa.selenium.WebDriver;
+
+import net.serenitybdd.core.pages.PageObject;
+import net.thucydides.core.annotations.DefaultUrl;
+
+@DefaultUrl("https://www.makemytrip.com/")
+public class SeleccionPages extends PageObject {
+	
+	
+	
+	
+	
+	public SeleccionPages (WebDriver driver) {
+		super(driver);
+	}
+
+}
